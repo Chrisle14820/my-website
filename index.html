@@ -46,20 +46,38 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 </style>
 
 </head>
 <body>
 
+  <div class="loader"></div>
+
 <div class="bgimg-1">
   <div class="caption">
     <span class="border">Christopher Le</span><br>
-    <a href="https://github.com/chrisle14820"><img src="github-icon.png" width=40px height=40px></a>
-    <a href="https://www.linkedin.com/in/christopherle2"><img src="linkedin-icon.png" width=40px height=40px></a>
-    <a href="ChristopherLeResume.pdf"><img src="resume-icon.png" width=40px height=40px></a>
+    <a href="https://github.com/chrisle14820" target="_blank" rel="noopener noreferrer"><img src="github-icon.png" width=40px height=40px></a>
+    <a href="https://www.linkedin.com/in/christopherle2" target="_blank" rel="noopener noreferrer"><img src="linkedin-icon.png" width=40px height=40px></a>
+    <a href="ChristopherLeResume.pdf" target="_blank" rel="noopener noreferrer"><img src="resume-icon.png" width=40px height=40px></a>
     <a href="mailto:christopheranhdungle@gmail.com"><img src="mail-icon.png" width=40px height=40px></a>
   </div>
 </div>
 
+
 </body>
 </html>
+
+
