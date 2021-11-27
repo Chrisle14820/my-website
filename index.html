@@ -3,54 +3,31 @@
 <head>
 <!--<link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">-->
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap" rel="stylesheet">
-<style>
-
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'M PLUS 1 Code', sans-serif;;
-  color: #777;
-}
-
-.bgimg-1{
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.bgimg-1 {
-  background-image: url("background-img.jpg");
-  height: 100%;
-}
-
-.caption {
-  position: absolute;
-  left: 0;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
-
-.caption span.border {
-  color: #fff;
-  padding: 3px;
-  font-size: 100px;
-  letter-spacing: 5px;
-}
-
-h3 {
-  letter-spacing: 5px;
-  text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
-}
-
-</style>
-
+<link rel="stylesheet" href="/style.css">
 </head>
 <body>
+  <header class="header">
+    <nav class="navbar">
+        <a href="#" class="nav-logo">Software Engineer/Developer</a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+            <li class="nav-item">
+                <a href="aboutme.html" class="nav-link">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a href="projects.html" class="nav-link">Projects</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+  </header>
+<script src="main.js"></script>
 <div class="bgimg-1">
   <div class="caption">
     <span class="border">Christopher Le</span><br>
@@ -60,8 +37,6 @@ h3 {
     <a href="mailto:christopheranhdungle@gmail.com"><img src="mail-icon.png" width=40px height=40px></a>
   </div>
 </div>
-
-
 </body>
 </html>
 
