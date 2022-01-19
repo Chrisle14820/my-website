@@ -73,6 +73,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    background-color: grey;
 }
 
 .hamburger {
@@ -102,7 +103,7 @@ a {
 .nav-link{
     font-size: 1.6rem;
     font-weight: 400;
-    color: white;
+    color: black;
 }
 
 .nav-link:hover{
@@ -112,7 +113,7 @@ a {
 .nav-logo {
     font-size: 2.1rem;
     font-weight: 500;
-    color: white;
+    color: black;
 }
 
 @media only screen and (max-width: 768px) {
